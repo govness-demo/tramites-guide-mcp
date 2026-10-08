@@ -1,0 +1,19 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "cl-servicios-digitales.tramites-guide-mcp"
+name: "Public procedures guide MCP server"
+type: "mcp"
+version: "1.1.0"
+summary: "MCP server that finds a public procedure, its requirements and where to complete it, in plain Spanish."
+description: "Indexes the national procedures guide so an agent can tell a resident exactly what a procedure needs and where to do it, linking the official page."
+publisher:
+  environment: "cl-servicios-digitales"
+  body: "Oficina de Servicios Digitales del Estado"
+languages: ["es"]
+license: "MIT"
+interfaces:
+  protocol: "mcp"
+  tools: ["find_procedure", "procedure_requirements", "procedure_channels"]
+links:
+  repo: "https://github.com/govness-demo/tramites-guide-mcp"
+domains: ["public-administration", "citizen-engagement"]
